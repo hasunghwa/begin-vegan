@@ -17,7 +17,7 @@ jobs:
 
       - name: Run build
         working-directory: ${{ env.working-directory }}
-        run: yurn build
+        run: yarn build
 
       - name: deploy to s3 bucket
         uses: jakejarvis/s3-sync-action@master
