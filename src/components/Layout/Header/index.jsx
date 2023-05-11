@@ -39,7 +39,7 @@ const Header = () => {
             fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}
           >
             시작해요, 비건생활
-            <br /> 비긴비건
+            <br /> 테스트
           </Text>
           <Stack direction={'row'}>
             <InputGroup>
